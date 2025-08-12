@@ -1,55 +1,34 @@
-testname: webMUSHRA Example
-testId: default_example
+testname: My TTS Listening Test
+testId: my_tts_test
 bufferSize: 2048
 stopOnErrors: true
 showButtonPreviousPage: true
 remoteService: service/write.php
 
-
 pages:
     - type: generic
       id: first_page
       name: Welcome
-      content: Welcome to webMUSHRA!       
+      content: Welcome to the listening test! Please follow the instructions and rate the samples.
+
     - type: mushra
       id: trial1
-      name: MUSHRA
-      content: This training shows how to use our user interface. Please perform the underlined instructions to proceed with the training session. Reminder: In a MUSHRA listening test you are asked to rate the Basic Audio Quality (BAQ) of each condition.<br/>Basic Audio Quality is a single and global attribute that is used to judge any and all detected differences between the reference and the condition.
+      name: MUSHRA Test
+      content: In this test, please rate the quality of each sample compared to the reference.
       showWaveform: true
-      enableLooping: true 
+      enableLooping: true
       reference: configs/resources/audio/mono_ref.wav
-      createAnchor35: true
-      createAnchor70: true
       stimuli:
-          C1: configs/resources/audio/mono_c1.wav
-          C2: configs/resources/audio/mono_c2.wav
-          C3: configs/resources/audio/mono_c3.wav
-    - 
-          - random
-          - type: mushra
-            id: trial_random_1
-            name: MUSHRA - Random 2
-            content: Due to randomization, this page will be either the second MUSHRA page or the third MUSHRA page.
-            enableLooping: true 
-            reference: configs/resources/audio/mono_ref.wav
-            createAnchor35: false
-            createAnchor70: false
-            stimuli:
-                C1: configs/resources/audio/mono_c1.wav
-                C2: configs/resources/audio/mono_c2.wav
-                C3: configs/resources/audio/mono_c3.wav          
-          - type: mushra
-            id: trial_random_2
-            name: MUSHRA - Random 1
-            content: Due to randomization, this page will be either the second MUSHRA page or the third MUSHRA page.
-            enableLooping: true 
-            reference: configs/resources/audio/mono_ref.wav
-            createAnchor35: false
-            createAnchor70: false
-            stimuli:
-                C1: configs/resources/audio/mono_c1.wav
-                C2: configs/resources/audio/mono_c2.wav
-                C3: configs/resources/audio/mono_c3.wav          
+          C1: configs/resources/audio/FASTPITCH/bas/bas_rnd2_455_gen.wav
+          C2: configs/resources/audio/FASTPITCH/bas/bas_rnd2_456_gen.wav
+          C3: configs/resources/audio/FASTPITCH/bas/bas_rnd2_457_gen.wav
+	  C4: configs/resources/audio/FASTPITCH/bas/bas_rnd2_455_gen.wav
+          C5: configs/resources/audio/FASTPITCH/bas/bas_rnd2_456_gen.wav
+          C6: configs/resources/audio/FASTPITCH/bas/bas_rnd2_457_gen.wav
+	  
+      createAnchor35: false
+      createAnchor70: false
+
     - type: finish
       name: Thank you
       content: Thank you for attending!
