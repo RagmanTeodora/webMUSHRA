@@ -22,7 +22,7 @@ pages:
           C1: configs/resources/audio/FASTPITCH/bas/bas_rnd2_455_gen.wav
           C2: configs/resources/audio/FASTPITCH/bas/bas_rnd2_456_gen.wav
           C3: configs/resources/audio/FASTPITCH/bas/bas_rnd2_457_gen.wav
-	  C4: configs/resources/audio/FASTPITCH/bas/bas_rnd2_455_gen.wav
+          C4: configs/resources/audio/FASTPITCH/bas/bas_rnd2_455_gen.wav
           C5: configs/resources/audio/FASTPITCH/bas/bas_rnd2_456_gen.wav
           C6: configs/resources/audio/FASTPITCH/bas/bas_rnd2_457_gen.wav
 	  
