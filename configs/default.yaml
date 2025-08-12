@@ -25,7 +25,6 @@ pages:
           C4: configs/resources/audio/FASTPITCH/bas/bas_rnd2_455_gen.wav
           C5: configs/resources/audio/FASTPITCH/bas/bas_rnd2_456_gen.wav
           C6: configs/resources/audio/FASTPITCH/bas/bas_rnd2_457_gen.wav
-	  
       createAnchor35: false
       createAnchor70: false
 
