@@ -19,12 +19,12 @@ pages:
       enableLooping: true
       reference: configs/resources/audio/mono_ref.wav
       stimuli:
-          C1: configs/resources/audio/FASTPITCH/bas/bas_rnd2_455_gen.wav
-          C2: configs/resources/audio/FASTPITCH/bas/bas_rnd2_456_gen.wav
-          C3: configs/resources/audio/FASTPITCH/bas/bas_rnd2_457_gen.wav
-          C4: configs/resources/audio/FASTPITCH/bas/bas_rnd2_455_gen.wav
-          C5: configs/resources/audio/FASTPITCH/bas/bas_rnd2_456_gen.wav
-          C6: configs/resources/audio/FASTPITCH/bas/bas_rnd2_457_gen.wav
+          C1: configs/resources/audio/FASTPITCH/bas/10/bas_rnd2_455_gen.wav
+          C2: configs/resources/audio/FASTPITCH/bas/10/bas_rnd2_456_gen.wav
+          C3: configs/resources/audio/FASTPITCH/bas/10/bas_rnd2_457_gen.wav
+          C4: configs/resources/audio/FASTPITCH/bas/10/bas_rnd2_455_gen.wav
+          C5: configs/resources/audio/FASTPITCH/bas/10/bas_rnd2_456_gen.wav
+          C6: configs/resources/audio/FASTPITCH/bas/10/bas_rnd2_457_gen.wav
       createAnchor35: false
       createAnchor70: false
 
