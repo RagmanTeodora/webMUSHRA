@@ -20,9 +20,9 @@ pages:
       reference: configs/resources/audio/RT_swara/originals/bas/bas_rnd2_456.wav
       stimuli:
           C1: configs/resources/audio/RT_swara/FASTPITCH/bas/10/bas_rnd2_456_gen.wav
-          C2: configs/resources/audio/RT_swara/Grad-TTS/bas/10/bas_rnd2_456.wav
-          C3: configs/resources/audio/RT_swara/Matcha-TTS/bas/10/bas_rnd2_456.wav
-          C4: configs/resources/audio/RT_swara/VITS/bas/10/bas_rnd2_456_gen.wav
+          # C2: configs/resources/audio/RT_swara/Grad-TTS/bas/10/bas_rnd2_456.wav
+          # C3: configs/resources/audio/RT_swara/Matcha-TTS/bas/10/bas_rnd2_456.wav
+          # C4: configs/resources/audio/RT_swara/VITS/bas/10/bas_rnd2_456_gen.wav
       createAnchor35: false
       createAnchor70: false
 
