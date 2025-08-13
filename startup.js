@@ -181,8 +181,8 @@ function startup(config) {
 
   try {
     audioContext.destination.channelCountMode = "explicit";
-    audioContext.destination.channelInterpretation = "discrete";
-    audioContext.destination.channelCount = audioContext.destination.maxChannelCount;
+    audioContext.destination.channelInterpretation = "speakers";  // "discrete";
+    audioContext.destination.channelCount = 2; // audioContext.destination.maxChannelCount;
   } catch (e) {
     console.log("webMUSHRA: Could not set channel count of destination node.");
     console.log(e);
