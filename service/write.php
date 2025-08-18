@@ -482,10 +482,6 @@ if ($write_spatial_lev) {
 
 }
 
-<?php
-// Existing write.php code...
-
-// --- Add this new section to your file ---
 
 // Define your email address
 $to = 'ragmanteodora@gmail.com';
