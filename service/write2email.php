@@ -28,7 +28,7 @@ $session = json_decode($sessionParam);
 // --- START: Email Logic ---
 
 // Your email address
-$to = 'ragmanteodora@gmail.com'; 
+$to = 'youremail@example.com'; 
 $subject = 'MUSHRA Test Results for ' . $session->testId;
 
 // Build the email body
