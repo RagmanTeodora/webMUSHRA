@@ -6,63 +6,184 @@ showButtonPreviousPage: true
 remoteService: service/write.php
 
 pages:
-    - type: generic
-      id: first_page
-      name: Welcome
-      content: Welcome to the listening test! Please follow the instructions and rate the samples.
+- type: generic
+  id: first_page
+  name: Welcome
+  content: Welcome to the listening test! Please follow the instructions and rate
+    the samples.
 
-    - type: mushra
-      id: page1
-      name: MUSHRA page1
-      content: In this test, please rate the quality of each sample compared to the reference.
-      showWaveform: true
-      enableLooping: false
-      reference: configs/resources/audio/RT_swara/originals/bas/bas_rnd2_456.wav
-      stimuli:
-          C1: configs/resources/audio/RT_swara/FASTPITCH/bas/10/bas_rnd2_456_gen.wav
-          C2: configs/resources/audio/RT_swara/Grad-TTS/bas/10/bas_rnd2_456.wav
-          C3: configs/resources/audio/RT_swara/Matcha-TTS/bas/10/bas_rnd2_456.wav
-          C4: configs/resources/audio/RT_swara/VITS/bas/10/bas_rnd2_456_gen.wav
-      createAnchor35: false
-      createAnchor70: false
+- type: mushra
+  id: page1
+  name: MUSHRA page1
+  content: In this test, please rate the quality of each sample compared to the reference.
+  showWaveform: true
+  enableLooping: false
+  reference: configs/resources/audio/RT_swara/originals/bas/bas_rnd2_456.wav
+  stimuli:
+    FASTPITCH: configs/resources/audio/RT_swara/FASTPITCH/bas/10/bas_rnd2_456_gen.wav
+    Grad-TTS: configs/resources/audio/RT_swara/Grad-TTS/bas/10/bas_rnd2_456.wav
+    Matcha-TTS: configs/resources/audio/RT_swara/Matcha-TTS/bas/10/bas_rnd2_456.wav
+    VITS: configs/resources/audio/RT_swara/VITS/bas/10/bas_rnd2_456_gen.wav
+  createAnchor35: false
+  createAnchor70: false
 
-    - type: mushra
-      id: page2
-      name: MUSHRA page2
-      content: In this test, please rate the quality of each sample compared to the reference.
-      showWaveform: true
-      enableLooping: false
-      reference: configs/resources/audio/RT_swara/originals/bas/bas_rnd2_479.wav
-      stimuli:
-          C1: configs/resources/audio/RT_swara/FASTPITCH/bas/10/bas_rnd2_479_gen.wav
-          C2: configs/resources/audio/RT_swara/Grad-TTS/bas/10/bas_rnd2_479.wav
-          C3: configs/resources/audio/RT_swara/Matcha-TTS/bas/10/bas_rnd2_479.wav
-          C4: configs/resources/audio/RT_swara/VITS/bas/10/bas_rnd2_479_gen.wav
-      createAnchor35: false
-      createAnchor70: false
+- type: mushra
+  id: page2
+  name: MUSHRA page2
+  content: In this test, please rate the quality of each sample compared to the reference.
+  showWaveform: true
+  enableLooping: false
+  reference: configs/resources/audio/RT_swara/originals/bas/bas_rnd2_479.wav
+  stimuli:
+    FASTPITCH: configs/resources/audio/RT_swara/FASTPITCH/bas/10/bas_rnd2_479_gen.wav
+    Grad-TTS: configs/resources/audio/RT_swara/Grad-TTS/bas/10/bas_rnd2_479.wav
+    Matcha-TTS: configs/resources/audio/RT_swara/Matcha-TTS/bas/10/bas_rnd2_479.wav
+    VITS: configs/resources/audio/RT_swara/VITS/bas/10/bas_rnd2_479_gen.wav
+  createAnchor35: false
+  createAnchor70: false
 
-    - type: finish
-      name: Thank you
-      content: Thank you for attending!
-      showResults: true
-      writeResults: true
-      questionnaire:
-          - type: text
-            label: eMail
-            name: email
-          - type: number
-            label: Age
-            name: age
-            min: 0
-            max: 100
-            default: 30
-          - type: likert
-            name: gender
-            label: Gender
-            response:
-             - value: female
-               label: Female
-             - value: male
-               label: Male
-             - value: other
-               label: Other
+- type: mushra
+  id: page3
+  name: MUSHRA page3
+  content: In this test, please rate the quality of each sample compared to the reference.
+  showWaveform: true
+  enableLooping: false
+  reference: configs/resources/audio/RT_swara/originals/bas/bas_rnd2_468.wav
+  stimuli:
+    FASTPITCH: configs/resources/audio/RT_swara/FASTPITCH/bas/10/bas_rnd2_468_gen.wav
+    Grad-TTS: configs/resources/audio/RT_swara/Grad-TTS/bas/10/bas_rnd2_468.wav
+    Matcha-TTS: configs/resources/audio/RT_swara/Matcha-TTS/bas/10/bas_rnd2_468.wav
+    VITS: configs/resources/audio/RT_swara/VITS/bas/10/bas_rnd2_468_gen.wav
+  createAnchor35: false
+  createAnchor70: false
+
+- type: mushra
+  id: page4
+  name: MUSHRA page4
+  content: In this test, please rate the quality of each sample compared to the reference.
+  showWaveform: true
+  enableLooping: false
+  reference: configs/resources/audio/RT_swara/originals/bas/bas_rnd2_494.wav
+  stimuli:
+    FASTPITCH: configs/resources/audio/RT_swara/FASTPITCH/bas/10/bas_rnd2_494_gen.wav
+    Grad-TTS: configs/resources/audio/RT_swara/Grad-TTS/bas/10/bas_rnd2_494.wav
+    Matcha-TTS: configs/resources/audio/RT_swara/Matcha-TTS/bas/10/bas_rnd2_494.wav
+    VITS: configs/resources/audio/RT_swara/VITS/bas/10/bas_rnd2_494_gen.wav
+  createAnchor35: false
+  createAnchor70: false
+
+- type: mushra
+  id: page5
+  name: MUSHRA page5
+  content: In this test, please rate the quality of each sample compared to the reference.
+  showWaveform: true
+  enableLooping: false
+  reference: configs/resources/audio/RT_swara/originals/bas/bas_rnd2_488.wav
+  stimuli:
+    FASTPITCH: configs/resources/audio/RT_swara/FASTPITCH/bas/10/bas_rnd2_488_gen.wav
+    Grad-TTS: configs/resources/audio/RT_swara/Grad-TTS/bas/10/bas_rnd2_488.wav
+    Matcha-TTS: configs/resources/audio/RT_swara/Matcha-TTS/bas/10/bas_rnd2_488.wav
+    VITS: configs/resources/audio/RT_swara/VITS/bas/10/bas_rnd2_488_gen.wav
+  createAnchor35: false
+  createAnchor70: false
+
+- type: mushra
+  id: page6
+  name: MUSHRA page6
+  content: In this test, please rate the quality of each sample compared to the reference.
+  showWaveform: true
+  enableLooping: false
+  reference: configs/resources/audio/RT_swara/originals/bas/bas_rnd2_469.wav
+  stimuli:
+    FASTPITCH: configs/resources/audio/RT_swara/FASTPITCH/bas/10/bas_rnd2_469_gen.wav
+    Grad-TTS: configs/resources/audio/RT_swara/Grad-TTS/bas/10/bas_rnd2_469.wav
+    Matcha-TTS: configs/resources/audio/RT_swara/Matcha-TTS/bas/10/bas_rnd2_469.wav
+    VITS: configs/resources/audio/RT_swara/VITS/bas/10/bas_rnd2_469_gen.wav
+  createAnchor35: false
+  createAnchor70: false
+
+- type: mushra
+  id: page7
+  name: MUSHRA page7
+  content: In this test, please rate the quality of each sample compared to the reference.
+  showWaveform: true
+  enableLooping: false
+  reference: configs/resources/audio/RT_swara/originals/bas/bas_rnd2_462.wav
+  stimuli:
+    FASTPITCH: configs/resources/audio/RT_swara/FASTPITCH/bas/10/bas_rnd2_462_gen.wav
+    Grad-TTS: configs/resources/audio/RT_swara/Grad-TTS/bas/10/bas_rnd2_462.wav
+    Matcha-TTS: configs/resources/audio/RT_swara/Matcha-TTS/bas/10/bas_rnd2_462.wav
+    VITS: configs/resources/audio/RT_swara/VITS/bas/10/bas_rnd2_462_gen.wav
+  createAnchor35: false
+  createAnchor70: false
+
+- type: mushra
+  id: page8
+  name: MUSHRA page8
+  content: In this test, please rate the quality of each sample compared to the reference.
+  showWaveform: true
+  enableLooping: false
+  reference: configs/resources/audio/RT_swara/originals/bas/bas_rnd2_457.wav
+  stimuli:
+    FASTPITCH: configs/resources/audio/RT_swara/FASTPITCH/bas/10/bas_rnd2_457_gen.wav
+    Grad-TTS: configs/resources/audio/RT_swara/Grad-TTS/bas/10/bas_rnd2_457.wav
+    Matcha-TTS: configs/resources/audio/RT_swara/Matcha-TTS/bas/10/bas_rnd2_457.wav
+    VITS: configs/resources/audio/RT_swara/VITS/bas/10/bas_rnd2_457_gen.wav
+  createAnchor35: false
+  createAnchor70: false
+
+- type: mushra
+  id: page9
+  name: MUSHRA page9
+  content: In this test, please rate the quality of each sample compared to the reference.
+  showWaveform: true
+  enableLooping: false
+  reference: configs/resources/audio/RT_swara/originals/bas/bas_rnd2_490.wav
+  stimuli:
+    FASTPITCH: configs/resources/audio/RT_swara/FASTPITCH/bas/10/bas_rnd2_490_gen.wav
+    Grad-TTS: configs/resources/audio/RT_swara/Grad-TTS/bas/10/bas_rnd2_490.wav
+    Matcha-TTS: configs/resources/audio/RT_swara/Matcha-TTS/bas/10/bas_rnd2_490.wav
+    VITS: configs/resources/audio/RT_swara/VITS/bas/10/bas_rnd2_490_gen.wav
+  createAnchor35: false
+  createAnchor70: false
+
+- type: mushra
+  id: page10
+  name: MUSHRA page10
+  content: In this test, please rate the quality of each sample compared to the reference.
+  showWaveform: true
+  enableLooping: false
+  reference: configs/resources/audio/RT_swara/originals/bas/bas_rnd2_483.wav
+  stimuli:
+    FASTPITCH: configs/resources/audio/RT_swara/FASTPITCH/bas/10/bas_rnd2_483_gen.wav
+    Grad-TTS: configs/resources/audio/RT_swara/Grad-TTS/bas/10/bas_rnd2_483.wav
+    Matcha-TTS: configs/resources/audio/RT_swara/Matcha-TTS/bas/10/bas_rnd2_483.wav
+    VITS: configs/resources/audio/RT_swara/VITS/bas/10/bas_rnd2_483_gen.wav
+  createAnchor35: false
+  createAnchor70: false
+  
+- type: finish
+  name: Thank you
+  content: Thank you for attending!
+  showResults: true
+  writeResults: true
+  questionnaire:
+  - type: text
+    label: eMail
+    name: email
+  - type: number
+    label: Age
+    name: age
+    min: 0
+    max: 100
+    default: 30
+  - type: likert
+    name: gender
+    label: Gender
+    response:
+    - value: female
+      label: Female
+    - value: male
+      label: Male
+    - value: other
+      label: Other
