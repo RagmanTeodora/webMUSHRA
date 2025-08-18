@@ -225,7 +225,7 @@ var configFile = '';
 if (configArg) {
   configFile = 'configs/' + configArg;
 } else {
-  configFile = 'configs/default.yaml';
+  configFile = 'configs/swara_pages.yaml' // 'configs/default.yaml';
 }
 
 
