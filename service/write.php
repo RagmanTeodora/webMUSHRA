@@ -482,5 +482,32 @@ if ($write_spatial_lev) {
 
 }
 
+<?php
+// Existing write.php code...
+
+// --- Add this new section to your file ---
+
+// Define your email address
+$to = 'ragmanteodora@gmail.com';
+$subject = 'MUSHRA Test Results for ' . $session->testId;
+
+// Create the email body with the data
+$body = "New test results received!\n\n";
+$body .= "Test ID: " . $session->testId . "\n";
+$body .= "Participant ID: " . $session->participant->name . "\n";
+$body .= "Email: " . $session->participant->response->email . "\n";
+$body .= "Age: " . $session->participant->response->age . "\n";
+$body .= "Gender: " . $session->participant->response->gender . "\n\n";
+
+$body .= "--- MUSHRA Scores ---\n";
+foreach ($mushraData as $trial) {
+    $body .= "Trial: " . $trial->id . "\n";
+    foreach ($trial->responses as $response) {
+        $body .= "  " . $response->stimulus . ": " . $response->score . " (Time: " . $response->time . ")\n";
+    }
+}
+
+// Send the email
+mail($to, $subject, $body);
 
 ?>
