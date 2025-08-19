@@ -24,6 +24,7 @@ pages:
   enableLooping: false
   reference: configs/resources/audio/RT_swara/originals/bas/bas_rnd2_456.wav
   hideReferenceButton: true
+  randomize: true
   stimuli:
     FASTPITCH: configs/resources/audio/RT_swara/FASTPITCH/bas/10/bas_rnd2_456_gen.wav
     Grad-TTS: configs/resources/audio/RT_swara/Grad-TTS/bas/10/bas_rnd2_456.wav
@@ -41,6 +42,7 @@ pages:
   enableLooping: false
   reference: configs/resources/audio/RT_swara/originals/bas/bas_rnd2_479.wav
   hideReferenceButton: true
+  randomize: true
   stimuli:
     FASTPITCH: configs/resources/audio/RT_swara/FASTPITCH/bas/10/bas_rnd2_479_gen.wav
     Grad-TTS: configs/resources/audio/RT_swara/Grad-TTS/bas/10/bas_rnd2_479.wav
@@ -57,6 +59,7 @@ pages:
   enableLooping: false
   reference: configs/resources/audio/RT_swara/originals/bas/bas_rnd2_468.wav
   hideReferenceButton: true
+  randomize: true
   stimuli:
     FASTPITCH: configs/resources/audio/RT_swara/FASTPITCH/bas/10/bas_rnd2_468_gen.wav
     Grad-TTS: configs/resources/audio/RT_swara/Grad-TTS/bas/10/bas_rnd2_468.wav
@@ -73,6 +76,7 @@ pages:
   enableLooping: false
   reference: configs/resources/audio/RT_swara/originals/bas/bas_rnd2_494.wav
   hideReferenceButton: true
+  randomize: true
   stimuli:
     FASTPITCH: configs/resources/audio/RT_swara/FASTPITCH/bas/10/bas_rnd2_494_gen.wav
     Grad-TTS: configs/resources/audio/RT_swara/Grad-TTS/bas/10/bas_rnd2_494.wav
@@ -89,6 +93,7 @@ pages:
   enableLooping: false
   reference: configs/resources/audio/RT_swara/originals/bas/bas_rnd2_488.wav
   hideReferenceButton: true
+  randomize: true
   stimuli:
     FASTPITCH: configs/resources/audio/RT_swara/FASTPITCH/bas/10/bas_rnd2_488_gen.wav
     Grad-TTS: configs/resources/audio/RT_swara/Grad-TTS/bas/10/bas_rnd2_488.wav
@@ -105,6 +110,7 @@ pages:
   enableLooping: false
   reference: configs/resources/audio/RT_swara/originals/bas/bas_rnd2_469.wav
   hideReferenceButton: true
+  randomize: true
   stimuli:
     FASTPITCH: configs/resources/audio/RT_swara/FASTPITCH/bas/10/bas_rnd2_469_gen.wav
     Grad-TTS: configs/resources/audio/RT_swara/Grad-TTS/bas/10/bas_rnd2_469.wav
@@ -121,6 +127,7 @@ pages:
   enableLooping: false
   reference: configs/resources/audio/RT_swara/originals/bas/bas_rnd2_462.wav
   hideReferenceButton: true
+  randomize: true
   stimuli:
     FASTPITCH: configs/resources/audio/RT_swara/FASTPITCH/bas/10/bas_rnd2_462_gen.wav
     Grad-TTS: configs/resources/audio/RT_swara/Grad-TTS/bas/10/bas_rnd2_462.wav
@@ -137,6 +144,7 @@ pages:
   enableLooping: false
   reference: configs/resources/audio/RT_swara/originals/bas/bas_rnd2_457.wav
   hideReferenceButton: true
+  randomize: true
   stimuli:
     FASTPITCH: configs/resources/audio/RT_swara/FASTPITCH/bas/10/bas_rnd2_457_gen.wav
     Grad-TTS: configs/resources/audio/RT_swara/Grad-TTS/bas/10/bas_rnd2_457.wav
@@ -153,6 +161,7 @@ pages:
   enableLooping: false
   reference: configs/resources/audio/RT_swara/originals/bas/bas_rnd2_490.wav
   hideReferenceButton: true
+  randomize: true
   stimuli:
     FASTPITCH: configs/resources/audio/RT_swara/FASTPITCH/bas/10/bas_rnd2_490_gen.wav
     Grad-TTS: configs/resources/audio/RT_swara/Grad-TTS/bas/10/bas_rnd2_490.wav
@@ -169,6 +178,7 @@ pages:
   enableLooping: false
   reference: configs/resources/audio/RT_swara/originals/bas/bas_rnd2_483.wav
   hideReferenceButton: true
+  randomize: true
   stimuli:
     FASTPITCH: configs/resources/audio/RT_swara/FASTPITCH/bas/10/bas_rnd2_483_gen.wav
     Grad-TTS: configs/resources/audio/RT_swara/Grad-TTS/bas/10/bas_rnd2_483.wav
@@ -186,6 +196,7 @@ pages:
   enableLooping: false
   reference: configs/resources/audio/RT_swara/originals/sgs/sgs_rnd2_456.wav
   hideReferenceButton: true
+  randomize: true
   stimuli:
     FASTPITCH: configs/resources/audio/RT_swara/FASTPITCH/sgs/10/sgs_rnd2_456_gen.wav
     Grad-TTS: configs/resources/audio/RT_swara/Grad-TTS/sgs/10/sgs_rnd2_456.wav
@@ -202,6 +213,7 @@ pages:
   enableLooping: false
   reference: configs/resources/audio/RT_swara/originals/sgs/sgs_rnd2_479.wav
   hideReferenceButton: true
+  randomize: true
   stimuli:
     FASTPITCH: configs/resources/audio/RT_swara/FASTPITCH/sgs/10/sgs_rnd2_479_gen.wav
     Grad-TTS: configs/resources/audio/RT_swara/Grad-TTS/sgs/10/sgs_rnd2_479.wav
@@ -218,6 +230,7 @@ pages:
   enableLooping: false
   reference: configs/resources/audio/RT_swara/originals/sgs/sgs_rnd2_468.wav
   hideReferenceButton: true
+  randomize: true
   stimuli:
     FASTPITCH: configs/resources/audio/RT_swara/FASTPITCH/sgs/10/sgs_rnd2_468_gen.wav
     Grad-TTS: configs/resources/audio/RT_swara/Grad-TTS/sgs/10/sgs_rnd2_468.wav
@@ -234,6 +247,7 @@ pages:
   enableLooping: false
   reference: configs/resources/audio/RT_swara/originals/sgs/sgs_rnd2_494.wav
   hideReferenceButton: true
+  randomize: true
   stimuli:
     FASTPITCH: configs/resources/audio/RT_swara/FASTPITCH/sgs/10/sgs_rnd2_494_gen.wav
     Grad-TTS: configs/resources/audio/RT_swara/Grad-TTS/sgs/10/sgs_rnd2_494.wav
@@ -250,6 +264,7 @@ pages:
   enableLooping: false
   reference: configs/resources/audio/RT_swara/originals/sgs/sgs_rnd2_488.wav
   hideReferenceButton: true
+  randomize: true
   stimuli:
     FASTPITCH: configs/resources/audio/RT_swara/FASTPITCH/sgs/10/sgs_rnd2_488_gen.wav
     Grad-TTS: configs/resources/audio/RT_swara/Grad-TTS/sgs/10/sgs_rnd2_488.wav
@@ -266,6 +281,7 @@ pages:
   enableLooping: false
   reference: configs/resources/audio/RT_swara/originals/sgs/sgs_rnd2_469.wav
   hideReferenceButton: true
+  randomize: true
   stimuli:
     FASTPITCH: configs/resources/audio/RT_swara/FASTPITCH/sgs/10/sgs_rnd2_469_gen.wav
     Grad-TTS: configs/resources/audio/RT_swara/Grad-TTS/sgs/10/sgs_rnd2_469.wav
@@ -282,6 +298,7 @@ pages:
   enableLooping: false
   reference: configs/resources/audio/RT_swara/originals/sgs/sgs_rnd2_462.wav
   hideReferenceButton: true
+  randomize: true
   stimuli:
     FASTPITCH: configs/resources/audio/RT_swara/FASTPITCH/sgs/10/sgs_rnd2_462_gen.wav
     Grad-TTS: configs/resources/audio/RT_swara/Grad-TTS/sgs/10/sgs_rnd2_462.wav
@@ -298,6 +315,7 @@ pages:
   enableLooping: false
   reference: configs/resources/audio/RT_swara/originals/sgs/sgs_rnd2_457.wav
   hideReferenceButton: true
+  randomize: true
   stimuli:
     FASTPITCH: configs/resources/audio/RT_swara/FASTPITCH/sgs/10/sgs_rnd2_457_gen.wav
     Grad-TTS: configs/resources/audio/RT_swara/Grad-TTS/sgs/10/sgs_rnd2_457.wav
@@ -314,6 +332,7 @@ pages:
   enableLooping: false
   reference: configs/resources/audio/RT_swara/originals/sgs/sgs_rnd2_490.wav
   hideReferenceButton: true
+  randomize: true
   stimuli:
     FASTPITCH: configs/resources/audio/RT_swara/FASTPITCH/sgs/10/sgs_rnd2_490_gen.wav
     Grad-TTS: configs/resources/audio/RT_swara/Grad-TTS/sgs/10/sgs_rnd2_490.wav
@@ -330,6 +349,7 @@ pages:
   enableLooping: false
   reference: configs/resources/audio/RT_swara/originals/sgs/sgs_rnd2_483.wav
   hideReferenceButton: true
+  randomize: true
   stimuli:
     FASTPITCH: configs/resources/audio/RT_swara/FASTPITCH/sgs/10/sgs_rnd2_483_gen.wav
     Grad-TTS: configs/resources/audio/RT_swara/Grad-TTS/sgs/10/sgs_rnd2_483.wav
@@ -349,6 +369,7 @@ pages:
   showWaveform: true
   enableLooping: false
   reference: configs/resources/audio/RT_swara/originals/bas/bas_rnd2_481.wav
+  randomize: true
   stimuli:
     FASTPITCH: configs/resources/audio/RT_swara/FASTPITCH/bas/10/bas_rnd2_481_gen.wav
     Grad-TTS: configs/resources/audio/RT_swara/Grad-TTS/bas/10/bas_rnd2_481.wav
@@ -364,6 +385,7 @@ pages:
   showWaveform: true
   enableLooping: false
   reference: configs/resources/audio/RT_swara/originals/bas/bas_rnd2_472.wav
+  randomize: true
   stimuli:
     FASTPITCH: configs/resources/audio/RT_swara/FASTPITCH/bas/10/bas_rnd2_472_gen.wav
     Grad-TTS: configs/resources/audio/RT_swara/Grad-TTS/bas/10/bas_rnd2_472.wav
@@ -379,6 +401,7 @@ pages:
   showWaveform: true
   enableLooping: false
   reference: configs/resources/audio/RT_swara/originals/bas/bas_rnd2_463.wav
+  randomize: true
   stimuli:
     FASTPITCH: configs/resources/audio/RT_swara/FASTPITCH/bas/10/bas_rnd2_463_gen.wav
     Grad-TTS: configs/resources/audio/RT_swara/Grad-TTS/bas/10/bas_rnd2_463.wav
@@ -394,6 +417,7 @@ pages:
   showWaveform: true
   enableLooping: false
   reference: configs/resources/audio/RT_swara/originals/bas/bas_rnd2_461.wav
+  randomize: true
   stimuli:
     FASTPITCH: configs/resources/audio/RT_swara/FASTPITCH/bas/10/bas_rnd2_461_gen.wav
     Grad-TTS: configs/resources/audio/RT_swara/Grad-TTS/bas/10/bas_rnd2_461.wav
@@ -409,6 +433,7 @@ pages:
   showWaveform: true
   enableLooping: false
   reference: configs/resources/audio/RT_swara/originals/bas/bas_rnd2_484.wav
+  randomize: true
   stimuli:
     FASTPITCH: configs/resources/audio/RT_swara/FASTPITCH/bas/10/bas_rnd2_484_gen.wav
     Grad-TTS: configs/resources/audio/RT_swara/Grad-TTS/bas/10/bas_rnd2_484.wav
@@ -423,6 +448,7 @@ pages:
   content: In this test, you will rate how similar each sample's voice is to the voice of the speaker in the reference audio. Use the scale to rate the similarity. A score of 100 means the voices are identical, while a score of 0 means they are completely different.showWaveform: true
   enableLooping: false
   reference: configs/resources/audio/RT_swara/originals/bas/bas_rnd2_482.wav
+  randomize: true
   stimuli:
     FASTPITCH: configs/resources/audio/RT_swara/FASTPITCH/bas/10/bas_rnd2_482_gen.wav
     Grad-TTS: configs/resources/audio/RT_swara/Grad-TTS/bas/10/bas_rnd2_482.wav
@@ -438,6 +464,7 @@ pages:
   showWaveform: true
   enableLooping: false
   reference: configs/resources/audio/RT_swara/originals/bas/bas_rnd2_475.wav
+  randomize: true
   stimuli:
     FASTPITCH: configs/resources/audio/RT_swara/FASTPITCH/bas/10/bas_rnd2_475_gen.wav
     Grad-TTS: configs/resources/audio/RT_swara/Grad-TTS/bas/10/bas_rnd2_475.wav
@@ -453,6 +480,7 @@ pages:
   showWaveform: true
   enableLooping: false
   reference: configs/resources/audio/RT_swara/originals/bas/bas_rnd2_496.wav
+  randomize: true
   stimuli:
     FASTPITCH: configs/resources/audio/RT_swara/FASTPITCH/bas/10/bas_rnd2_496_gen.wav
     Grad-TTS: configs/resources/audio/RT_swara/Grad-TTS/bas/10/bas_rnd2_496.wav
@@ -468,6 +496,7 @@ pages:
   showWaveform: true
   enableLooping: false
   reference: configs/resources/audio/RT_swara/originals/bas/bas_rnd2_478.wav
+  randomize: true
   stimuli:
     FASTPITCH: configs/resources/audio/RT_swara/FASTPITCH/bas/10/bas_rnd2_478_gen.wav
     Grad-TTS: configs/resources/audio/RT_swara/Grad-TTS/bas/10/bas_rnd2_478.wav
@@ -483,6 +512,7 @@ pages:
   showWaveform: true
   enableLooping: false
   reference: configs/resources/audio/RT_swara/originals/bas/bas_rnd2_493.wav
+  randomize: true
   stimuli:
     FASTPITCH: configs/resources/audio/RT_swara/FASTPITCH/bas/10/bas_rnd2_493_gen.wav
     Grad-TTS: configs/resources/audio/RT_swara/Grad-TTS/bas/10/bas_rnd2_493.wav
@@ -501,6 +531,7 @@ pages:
   showWaveform: true
   enableLooping: false
   reference: configs/resources/audio/RT_swara/originals/sgs/sgs_rnd2_481.wav
+  randomize: true
   stimuli:
     FASTPITCH: configs/resources/audio/RT_swara/FASTPITCH/sgs/10/sgs_rnd2_481_gen.wav
     Grad-TTS: configs/resources/audio/RT_swara/Grad-TTS/sgs/10/sgs_rnd2_481.wav
@@ -516,6 +547,7 @@ pages:
   showWaveform: true
   enableLooping: false
   reference: configs/resources/audio/RT_swara/originals/sgs/sgs_rnd2_472.wav
+  randomize: true
   stimuli:
     FASTPITCH: configs/resources/audio/RT_swara/FASTPITCH/sgs/10/sgs_rnd2_472_gen.wav
     Grad-TTS: configs/resources/audio/RT_swara/Grad-TTS/sgs/10/sgs_rnd2_472.wav
@@ -531,6 +563,7 @@ pages:
   showWaveform: true
   enableLooping: false
   reference: configs/resources/audio/RT_swara/originals/sgs/sgs_rnd2_463.wav
+  randomize: true
   stimuli:
     FASTPITCH: configs/resources/audio/RT_swara/FASTPITCH/sgs/10/sgs_rnd2_463_gen.wav
     Grad-TTS: configs/resources/audio/RT_swara/Grad-TTS/sgs/10/sgs_rnd2_463.wav
@@ -546,6 +579,7 @@ pages:
   showWaveform: true
   enableLooping: false
   reference: configs/resources/audio/RT_swara/originals/sgs/sgs_rnd2_461.wav
+  randomize: true
   stimuli:
     FASTPITCH: configs/resources/audio/RT_swara/FASTPITCH/sgs/10/sgs_rnd2_461_gen.wav
     Grad-TTS: configs/resources/audio/RT_swara/Grad-TTS/sgs/10/sgs_rnd2_461.wav
@@ -561,6 +595,7 @@ pages:
   showWaveform: true
   enableLooping: false
   reference: configs/resources/audio/RT_swara/originals/sgs/sgs_rnd2_484.wav
+  randomize: true
   stimuli:
     FASTPITCH: configs/resources/audio/RT_swara/FASTPITCH/sgs/10/sgs_rnd2_484_gen.wav
     Grad-TTS: configs/resources/audio/RT_swara/Grad-TTS/sgs/10/sgs_rnd2_484.wav
@@ -575,6 +610,7 @@ pages:
   content: In this test, you will rate how similar each sample's voice is to the voice of the speaker in the reference audio. Use the scale to rate the similarity. A score of 100 means the voices are identical, while a score of 0 means they are completely different.showWaveform: true
   enableLooping: false
   reference: configs/resources/audio/RT_swara/originals/sgs/sgs_rnd2_482.wav
+  randomize: true
   stimuli:
     FASTPITCH: configs/resources/audio/RT_swara/FASTPITCH/sgs/10/sgs_rnd2_482_gen.wav
     Grad-TTS: configs/resources/audio/RT_swara/Grad-TTS/sgs/10/sgs_rnd2_482.wav
@@ -590,6 +626,7 @@ pages:
   showWaveform: true
   enableLooping: false
   reference: configs/resources/audio/RT_swara/originals/sgs/sgs_rnd2_475.wav
+  randomize: true
   stimuli:
     FASTPITCH: configs/resources/audio/RT_swara/FASTPITCH/sgs/10/sgs_rnd2_475_gen.wav
     Grad-TTS: configs/resources/audio/RT_swara/Grad-TTS/sgs/10/sgs_rnd2_475.wav
@@ -605,6 +642,7 @@ pages:
   showWaveform: true
   enableLooping: false
   reference: configs/resources/audio/RT_swara/originals/sgs/sgs_rnd2_496.wav
+  randomize: true
   stimuli:
     FASTPITCH: configs/resources/audio/RT_swara/FASTPITCH/sgs/10/sgs_rnd2_496_gen.wav
     Grad-TTS: configs/resources/audio/RT_swara/Grad-TTS/sgs/10/sgs_rnd2_496.wav
@@ -620,6 +658,7 @@ pages:
   showWaveform: true
   enableLooping: false
   reference: configs/resources/audio/RT_swara/originals/sgs/sgs_rnd2_478.wav
+  randomize: true
   stimuli:
     FASTPITCH: configs/resources/audio/RT_swara/FASTPITCH/sgs/10/sgs_rnd2_478_gen.wav
     Grad-TTS: configs/resources/audio/RT_swara/Grad-TTS/sgs/10/sgs_rnd2_478.wav
@@ -635,6 +674,7 @@ pages:
   showWaveform: true
   enableLooping: false
   reference: configs/resources/audio/RT_swara/originals/sgs/sgs_rnd2_493.wav
+  randomize: true
   stimuli:
     FASTPITCH: configs/resources/audio/RT_swara/FASTPITCH/sgs/10/sgs_rnd2_493_gen.wav
     Grad-TTS: configs/resources/audio/RT_swara/Grad-TTS/sgs/10/sgs_rnd2_493.wav
