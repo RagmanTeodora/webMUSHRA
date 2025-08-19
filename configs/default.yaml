@@ -32,36 +32,6 @@ pages:
   createAnchor70: false
   switchBack: true
 
-- type: bs1116
-  id: page2
-  name: MUSHRA page2
-  content: Please rate how natural each sample sounds. You may use the full range of the scale to indicate your preferences. Higher scores correspond to a more natural-sounding voice.
-  showWaveform: true
-  enableLooping: false
-  reference: configs/resources/audio/RT_swara/originals/bas/bas_rnd2_479.wav
-  stimuli:
-    FASTPITCH: configs/resources/audio/RT_swara/FASTPITCH/bas/10/bas_rnd2_479_gen.wav
-    Grad-TTS: configs/resources/audio/RT_swara/Grad-TTS/bas/10/bas_rnd2_479.wav
-    Matcha-TTS: configs/resources/audio/RT_swara/Matcha-TTS/bas/10/bas_rnd2_479.wav
-    VITS: configs/resources/audio/RT_swara/VITS/bas/10/bas_rnd2_479_gen.wav
-  createAnchor35: false
-  createAnchor70: false
-
-- type: paired_comparison
-  id: page3
-  name: MUSHRA page3
-  content: Please rate how natural each sample sounds. You may use the full range of the scale to indicate your preferences. Higher scores correspond to a more natural-sounding voice.
-  showWaveform: true
-  enableLooping: false
-  reference: configs/resources/audio/RT_swara/originals/bas/bas_rnd2_468.wav
-  stimuli:
-    FASTPITCH: configs/resources/audio/RT_swara/FASTPITCH/bas/10/bas_rnd2_468_gen.wav
-    Grad-TTS: configs/resources/audio/RT_swara/Grad-TTS/bas/10/bas_rnd2_468.wav
-    Matcha-TTS: configs/resources/audio/RT_swara/Matcha-TTS/bas/10/bas_rnd2_468.wav
-    VITS: configs/resources/audio/RT_swara/VITS/bas/10/bas_rnd2_468_gen.wav
-  createAnchor35: false
-  createAnchor70: false
-
 - type: likert_multi_stimulus
   id: page4
   name: MUSHRA page4
@@ -75,6 +45,18 @@ pages:
     Matcha-TTS: configs/resources/audio/RT_swara/Matcha-TTS/bas/10/bas_rnd2_494.wav
     VITS: configs/resources/audio/RT_swara/VITS/bas/10/bas_rnd2_494_gen.wav
   
+- type: likert_multi_stimulus
+  id: page5
+  name: MUSHRA page5
+  content: Please rate how natural each sample sounds. You may use the full range of the scale to indicate your preferences. Higher scores correspond to a more natural-sounding voice.
+  mustRate: true
+  mustPlayback: processUpdate
+  stimuli:
+    FASTPITCH: configs/resources/audio/RT_swara/FASTPITCH/bas/10/bas_rnd2_494_gen.wav
+    Grad-TTS: configs/resources/audio/RT_swara/Grad-TTS/bas/10/bas_rnd2_494.wav
+    Matcha-TTS: configs/resources/audio/RT_swara/Matcha-TTS/bas/10/bas_rnd2_494.wav
+    VITS: configs/resources/audio/RT_swara/VITS/bas/10/bas_rnd2_494_gen.wav
+
   response:
     - value: not at all
       label: Not at all
