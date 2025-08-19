@@ -44,7 +44,29 @@ pages:
     Grad-TTS: configs/resources/audio/RT_swara/Grad-TTS/bas/10/bas_rnd2_494.wav
     Matcha-TTS: configs/resources/audio/RT_swara/Matcha-TTS/bas/10/bas_rnd2_494.wav
     VITS: configs/resources/audio/RT_swara/VITS/bas/10/bas_rnd2_494_gen.wav
-  
+    
+  response:
+    - value: not at all
+      label: Not at all
+      img: configs/resources/images/star_off.png
+      imgSelected: configs/resources/images/star_on.png
+      imgHigherResponseSelected: configs/resources/images/star_on.png
+    - value: not a lot
+      label: Not a lot
+      img: configs/resources/images/star_off.png
+      imgSelected: configs/resources/images/star_on.png
+      imgHigherResponseSelected: configs/resources/images/star_on.png
+    - value: a bit
+      label: A bit
+      img: configs/resources/images/star_off.png
+      imgSelected: configs/resources/images/star_on.png
+      imgHigherResponseSelected: configs/resources/images/star_on.png
+    - value: much
+      label: Much
+      img: configs/resources/images/star_off.png
+      imgSelected: configs/resources/images/star_on.png
+      imgHigherResponseSelected: configs/resources/images/star_on.png   
+
 - type: likert_multi_stimulus
   id: page5
   name: MUSHRA page5
