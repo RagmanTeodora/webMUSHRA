@@ -16,7 +16,7 @@ pages:
 
 ### BAS ###
 
-- type: basic
+- type: generic
   id: page1
   name: MUSHRA page1
   content: Please rate how natural each sample sounds. You may use the full range of the scale to indicate your preferences. Higher scores correspond to a more natural-sounding voice.
