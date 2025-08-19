@@ -22,7 +22,8 @@ pages:
   content: Please rate how natural each sample sounds. You may use the full range of the scale to indicate your preferences. Higher scores correspond to a more natural-sounding voice.
   showWaveform: true
   enableLooping: false
-  reference: configs/resources/audio/RT_swara/originals/bas/bas_rnd2_456.wav
+  showReference: false 
+  # reference: configs/resources/audio/RT_swara/originals/bas/bas_rnd2_456.wav
   stimuli:
     FASTPITCH: configs/resources/audio/RT_swara/FASTPITCH/bas/10/bas_rnd2_456_gen.wav
     Grad-TTS: configs/resources/audio/RT_swara/Grad-TTS/bas/10/bas_rnd2_456.wav
@@ -44,7 +45,7 @@ pages:
     Grad-TTS: configs/resources/audio/RT_swara/Grad-TTS/bas/10/bas_rnd2_494.wav
     Matcha-TTS: configs/resources/audio/RT_swara/Matcha-TTS/bas/10/bas_rnd2_494.wav
     VITS: configs/resources/audio/RT_swara/VITS/bas/10/bas_rnd2_494_gen.wav
-    
+
   response:
     - value: not at all
       label: Not at all
