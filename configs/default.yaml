@@ -12,10 +12,14 @@ pages:
   content: Welcome to the listening test! Please follow the instructions and rate
     the samples.
 
+####################################### MOS test ##################################################
+
+### BAS ###
+
 - type: mushra
   id: page1
   name: MUSHRA page1
-  content: In this test, please rate the quality of each sample compared to the reference.
+  content: Please rate how natural each sample sounds. You may use the full range of the scale to indicate your preferences. Higher scores correspond to a more natural-sounding voice.
   showWaveform: true
   enableLooping: false
   reference: configs/resources/audio/RT_swara/originals/bas/bas_rnd2_456.wav
@@ -30,7 +34,7 @@ pages:
 - type: mushra
   id: page2
   name: MUSHRA page2
-  content: In this test, please rate the quality of each sample compared to the reference.
+  content: Please rate how natural each sample sounds. You may use the full range of the scale to indicate your preferences. Higher scores correspond to a more natural-sounding voice.
   showWaveform: true
   enableLooping: false
   reference: configs/resources/audio/RT_swara/originals/bas/bas_rnd2_479.wav
@@ -45,7 +49,7 @@ pages:
 - type: mushra
   id: page3
   name: MUSHRA page3
-  content: In this test, please rate the quality of each sample compared to the reference.
+  content: Please rate how natural each sample sounds. You may use the full range of the scale to indicate your preferences. Higher scores correspond to a more natural-sounding voice.
   showWaveform: true
   enableLooping: false
   reference: configs/resources/audio/RT_swara/originals/bas/bas_rnd2_468.wav
@@ -60,7 +64,7 @@ pages:
 - type: mushra
   id: page4
   name: MUSHRA page4
-  content: In this test, please rate the quality of each sample compared to the reference.
+  content: Please rate how natural each sample sounds. You may use the full range of the scale to indicate your preferences. Higher scores correspond to a more natural-sounding voice.
   showWaveform: true
   enableLooping: false
   reference: configs/resources/audio/RT_swara/originals/bas/bas_rnd2_494.wav
@@ -75,7 +79,7 @@ pages:
 - type: mushra
   id: page5
   name: MUSHRA page5
-  content: In this test, please rate the quality of each sample compared to the reference.
+  content: Please rate how natural each sample sounds. You may use the full range of the scale to indicate your preferences. Higher scores correspond to a more natural-sounding voice.
   showWaveform: true
   enableLooping: false
   reference: configs/resources/audio/RT_swara/originals/bas/bas_rnd2_488.wav
@@ -90,7 +94,7 @@ pages:
 - type: mushra
   id: page6
   name: MUSHRA page6
-  content: In this test, please rate the quality of each sample compared to the reference.
+  content: Please rate how natural each sample sounds. You may use the full range of the scale to indicate your preferences. Higher scores correspond to a more natural-sounding voice.
   showWaveform: true
   enableLooping: false
   reference: configs/resources/audio/RT_swara/originals/bas/bas_rnd2_469.wav
@@ -105,7 +109,7 @@ pages:
 - type: mushra
   id: page7
   name: MUSHRA page7
-  content: In this test, please rate the quality of each sample compared to the reference.
+  content: Please rate how natural each sample sounds. You may use the full range of the scale to indicate your preferences. Higher scores correspond to a more natural-sounding voice.
   showWaveform: true
   enableLooping: false
   reference: configs/resources/audio/RT_swara/originals/bas/bas_rnd2_462.wav
@@ -120,7 +124,7 @@ pages:
 - type: mushra
   id: page8
   name: MUSHRA page8
-  content: In this test, please rate the quality of each sample compared to the reference.
+  content: Please rate how natural each sample sounds. You may use the full range of the scale to indicate your preferences. Higher scores correspond to a more natural-sounding voice.
   showWaveform: true
   enableLooping: false
   reference: configs/resources/audio/RT_swara/originals/bas/bas_rnd2_457.wav
@@ -135,7 +139,7 @@ pages:
 - type: mushra
   id: page9
   name: MUSHRA page9
-  content: In this test, please rate the quality of each sample compared to the reference.
+  content: Please rate how natural each sample sounds. You may use the full range of the scale to indicate your preferences. Higher scores correspond to a more natural-sounding voice.
   showWaveform: true
   enableLooping: false
   reference: configs/resources/audio/RT_swara/originals/bas/bas_rnd2_490.wav
@@ -150,7 +154,7 @@ pages:
 - type: mushra
   id: page10
   name: MUSHRA page10
-  content: In this test, please rate the quality of each sample compared to the reference.
+  content: Please rate how natural each sample sounds. You may use the full range of the scale to indicate your preferences. Higher scores correspond to a more natural-sounding voice.
   showWaveform: true
   enableLooping: false
   reference: configs/resources/audio/RT_swara/originals/bas/bas_rnd2_483.wav
@@ -159,6 +163,462 @@ pages:
     Grad-TTS: configs/resources/audio/RT_swara/Grad-TTS/bas/10/bas_rnd2_483.wav
     Matcha-TTS: configs/resources/audio/RT_swara/Matcha-TTS/bas/10/bas_rnd2_483.wav
     VITS: configs/resources/audio/RT_swara/VITS/bas/10/bas_rnd2_483_gen.wav
+  createAnchor35: false
+  createAnchor70: false
+
+### SGS ###
+- type: mushra
+  id: page11
+  name: MUSHRA page11
+  content: Please rate how natural each sample sounds. You may use the full range of the scale to indicate your preferences. Higher scores correspond to a more natural-sounding voice.
+  showWaveform: true
+  enableLooping: false
+  reference: configs/resources/audio/RT_swara/originals/sgs/sgs_rnd2_456.wav
+  stimuli:
+    FASTPITCH: configs/resources/audio/RT_swara/FASTPITCH/sgs/10/sgs_rnd2_456_gen.wav
+    Grad-TTS: configs/resources/audio/RT_swara/Grad-TTS/sgs/10/sgs_rnd2_456.wav
+    Matcha-TTS: configs/resources/audio/RT_swara/Matcha-TTS/sgs/10/sgs_rnd2_456.wav
+    VITS: configs/resources/audio/RT_swara/VITS/sgs/10/sgs_rnd2_456_gen.wav
+  createAnchor35: false
+  createAnchor70: false
+
+- type: mushra
+  id: page12
+  name: MUSHRA page12
+  content: Please rate how natural each sample sounds. You may use the full range of the scale to indicate your preferences. Higher scores correspond to a more natural-sounding voice.
+  showWaveform: true
+  enableLooping: false
+  reference: configs/resources/audio/RT_swara/originals/sgs/sgs_rnd2_479.wav
+  stimuli:
+    FASTPITCH: configs/resources/audio/RT_swara/FASTPITCH/sgs/10/sgs_rnd2_479_gen.wav
+    Grad-TTS: configs/resources/audio/RT_swara/Grad-TTS/sgs/10/sgs_rnd2_479.wav
+    Matcha-TTS: configs/resources/audio/RT_swara/Matcha-TTS/sgs/10/sgs_rnd2_479.wav
+    VITS: configs/resources/audio/RT_swara/VITS/sgs/10/sgs_rnd2_479_gen.wav
+  createAnchor35: false
+  createAnchor70: false
+
+- type: mushra
+  id: page13
+  name: MUSHRA page13
+  content: Please rate how natural each sample sounds. You may use the full range of the scale to indicate your preferences. Higher scores correspond to a more natural-sounding voice.
+  showWaveform: true
+  enableLooping: false
+  reference: configs/resources/audio/RT_swara/originals/sgs/sgs_rnd2_468.wav
+  stimuli:
+    FASTPITCH: configs/resources/audio/RT_swara/FASTPITCH/sgs/10/sgs_rnd2_468_gen.wav
+    Grad-TTS: configs/resources/audio/RT_swara/Grad-TTS/sgs/10/sgs_rnd2_468.wav
+    Matcha-TTS: configs/resources/audio/RT_swara/Matcha-TTS/sgs/10/sgs_rnd2_468.wav
+    VITS: configs/resources/audio/RT_swara/VITS/sgs/10/sgs_rnd2_468_gen.wav
+  createAnchor35: false
+  createAnchor70: false
+
+- type: mushra
+  id: page14
+  name: MUSHRA page14
+  content: Please rate how natural each sample sounds. You may use the full range of the scale to indicate your preferences. Higher scores correspond to a more natural-sounding voice.
+  showWaveform: true
+  enableLooping: false
+  reference: configs/resources/audio/RT_swara/originals/sgs/sgs_rnd2_494.wav
+  stimuli:
+    FASTPITCH: configs/resources/audio/RT_swara/FASTPITCH/sgs/10/sgs_rnd2_494_gen.wav
+    Grad-TTS: configs/resources/audio/RT_swara/Grad-TTS/sgs/10/sgs_rnd2_494.wav
+    Matcha-TTS: configs/resources/audio/RT_swara/Matcha-TTS/sgs/10/sgs_rnd2_494.wav
+    VITS: configs/resources/audio/RT_swara/VITS/sgs/10/sgs_rnd2_494_gen.wav
+  createAnchor35: false
+  createAnchor70: false
+
+- type: mushra
+  id: page15
+  name: MUSHRA page15
+  content: Please rate how natural each sample sounds. You may use the full range of the scale to indicate your preferences. Higher scores correspond to a more natural-sounding voice.
+  showWaveform: true
+  enableLooping: false
+  reference: configs/resources/audio/RT_swara/originals/sgs/sgs_rnd2_488.wav
+  stimuli:
+    FASTPITCH: configs/resources/audio/RT_swara/FASTPITCH/sgs/10/sgs_rnd2_488_gen.wav
+    Grad-TTS: configs/resources/audio/RT_swara/Grad-TTS/sgs/10/sgs_rnd2_488.wav
+    Matcha-TTS: configs/resources/audio/RT_swara/Matcha-TTS/sgs/10/sgs_rnd2_488.wav
+    VITS: configs/resources/audio/RT_swara/VITS/sgs/10/sgs_rnd2_488_gen.wav
+  createAnchor35: false
+  createAnchor70: false
+
+- type: mushra
+  id: page16
+  name: MUSHRA page16
+  content: Please rate how natural each sample sounds. You may use the full range of the scale to indicate your preferences. Higher scores correspond to a more natural-sounding voice.
+  showWaveform: true
+  enableLooping: false
+  reference: configs/resources/audio/RT_swara/originals/sgs/sgs_rnd2_469.wav
+  stimuli:
+    FASTPITCH: configs/resources/audio/RT_swara/FASTPITCH/sgs/10/sgs_rnd2_469_gen.wav
+    Grad-TTS: configs/resources/audio/RT_swara/Grad-TTS/sgs/10/sgs_rnd2_469.wav
+    Matcha-TTS: configs/resources/audio/RT_swara/Matcha-TTS/sgs/10/sgs_rnd2_469.wav
+    VITS: configs/resources/audio/RT_swara/VITS/sgs/10/sgs_rnd2_469_gen.wav
+  createAnchor35: false
+  createAnchor70: false
+
+- type: mushra
+  id: page17
+  name: MUSHRA page17
+  content: Please rate how natural each sample sounds. You may use the full range of the scale to indicate your preferences. Higher scores correspond to a more natural-sounding voice.
+  showWaveform: true
+  enableLooping: false
+  reference: configs/resources/audio/RT_swara/originals/sgs/sgs_rnd2_462.wav
+  stimuli:
+    FASTPITCH: configs/resources/audio/RT_swara/FASTPITCH/sgs/10/sgs_rnd2_462_gen.wav
+    Grad-TTS: configs/resources/audio/RT_swara/Grad-TTS/sgs/10/sgs_rnd2_462.wav
+    Matcha-TTS: configs/resources/audio/RT_swara/Matcha-TTS/sgs/10/sgs_rnd2_462.wav
+    VITS: configs/resources/audio/RT_swara/VITS/sgs/10/sgs_rnd2_462_gen.wav
+  createAnchor35: false
+  createAnchor70: false
+
+- type: mushra
+  id: page18
+  name: MUSHRA page18
+  content: Please rate how natural each sample sounds. You may use the full range of the scale to indicate your preferences. Higher scores correspond to a more natural-sounding voice.
+  showWaveform: true
+  enableLooping: false
+  reference: configs/resources/audio/RT_swara/originals/sgs/sgs_rnd2_457.wav
+  stimuli:
+    FASTPITCH: configs/resources/audio/RT_swara/FASTPITCH/sgs/10/sgs_rnd2_457_gen.wav
+    Grad-TTS: configs/resources/audio/RT_swara/Grad-TTS/sgs/10/sgs_rnd2_457.wav
+    Matcha-TTS: configs/resources/audio/RT_swara/Matcha-TTS/sgs/10/sgs_rnd2_457.wav
+    VITS: configs/resources/audio/RT_swara/VITS/sgs/10/sgs_rnd2_457_gen.wav
+  createAnchor35: false
+  createAnchor70: false
+
+- type: mushra
+  id: page19
+  name: MUSHRA page19
+  content: Please rate how natural each sample sounds. You may use the full range of the scale to indicate your preferences. Higher scores correspond to a more natural-sounding voice.
+  showWaveform: true
+  enableLooping: false
+  reference: configs/resources/audio/RT_swara/originals/sgs/sgs_rnd2_490.wav
+  stimuli:
+    FASTPITCH: configs/resources/audio/RT_swara/FASTPITCH/sgs/10/sgs_rnd2_490_gen.wav
+    Grad-TTS: configs/resources/audio/RT_swara/Grad-TTS/sgs/10/sgs_rnd2_490.wav
+    Matcha-TTS: configs/resources/audio/RT_swara/Matcha-TTS/sgs/10/sgs_rnd2_490.wav
+    VITS: configs/resources/audio/RT_swara/VITS/sgs/10/sgs_rnd2_490_gen.wav
+  createAnchor35: false
+  createAnchor70: false
+
+- type: mushra
+  id: page20
+  name: MUSHRA page20
+  content: Please rate how natural each sample sounds. You may use the full range of the scale to indicate your preferences. Higher scores correspond to a more natural-sounding voice.
+  showWaveform: true
+  enableLooping: false
+  reference: configs/resources/audio/RT_swara/originals/sgs/sgs_rnd2_483.wav
+  stimuli:
+    FASTPITCH: configs/resources/audio/RT_swara/FASTPITCH/sgs/10/sgs_rnd2_483_gen.wav
+    Grad-TTS: configs/resources/audio/RT_swara/Grad-TTS/sgs/10/sgs_rnd2_483.wav
+    Matcha-TTS: configs/resources/audio/RT_swara/Matcha-TTS/sgs/10/sgs_rnd2_483.wav
+    VITS: configs/resources/audio/RT_swara/VITS/sgs/10/sgs_rnd2_483_gen.wav
+  createAnchor35: false
+  createAnchor70: false
+
+####################################### SPEAKER SIMILARITY ##################################################
+
+### BAS ###
+
+- type: mushra
+  id: page21
+  name: MUSHRA page21
+  content: In this test, you will rate how similar each sample's voice is to the voice of the speaker in the reference audio. Use the scale to rate the similarity. A score of 100 means the voices are identical, while a score of 0 means they are completely different.
+  showWaveform: true
+  enableLooping: false
+  reference: configs/resources/audio/RT_swara/originals/bas/bas_rnd2_481.wav
+  stimuli:
+    FASTPITCH: configs/resources/audio/RT_swara/FASTPITCH/bas/10/bas_rnd2_481_gen.wav
+    Grad-TTS: configs/resources/audio/RT_swara/Grad-TTS/bas/10/bas_rnd2_481.wav
+    Matcha-TTS: configs/resources/audio/RT_swara/Matcha-TTS/bas/10/bas_rnd2_481.wav
+    VITS: configs/resources/audio/RT_swara/VITS/bas/10/bas_rnd2_481_gen.wav
+  createAnchor35: false
+  createAnchor70: false
+
+- type: mushra
+  id: page22
+  name: MUSHRA page22
+  content: In this test, you will rate how similar each sample's voice is to the voice of the speaker in the reference audio. Use the scale to rate the similarity. A score of 100 means the voices are identical, while a score of 0 means they are completely different.
+  showWaveform: true
+  enableLooping: false
+  reference: configs/resources/audio/RT_swara/originals/bas/bas_rnd2_472.wav
+  stimuli:
+    FASTPITCH: configs/resources/audio/RT_swara/FASTPITCH/bas/10/bas_rnd2_472_gen.wav
+    Grad-TTS: configs/resources/audio/RT_swara/Grad-TTS/bas/10/bas_rnd2_472.wav
+    Matcha-TTS: configs/resources/audio/RT_swara/Matcha-TTS/bas/10/bas_rnd2_472.wav
+    VITS: configs/resources/audio/RT_swara/VITS/bas/10/bas_rnd2_472_gen.wav
+  createAnchor35: false
+  createAnchor70: false
+
+- type: mushra
+  id: page23
+  name: MUSHRA page23
+  content: In this test, you will rate how similar each sample's voice is to the voice of the speaker in the reference audio. Use the scale to rate the similarity. A score of 100 means the voices are identical, while a score of 0 means they are completely different.
+  showWaveform: true
+  enableLooping: false
+  reference: configs/resources/audio/RT_swara/originals/bas/bas_rnd2_463.wav
+  stimuli:
+    FASTPITCH: configs/resources/audio/RT_swara/FASTPITCH/bas/10/bas_rnd2_463_gen.wav
+    Grad-TTS: configs/resources/audio/RT_swara/Grad-TTS/bas/10/bas_rnd2_463.wav
+    Matcha-TTS: configs/resources/audio/RT_swara/Matcha-TTS/bas/10/bas_rnd2_463.wav
+    VITS: configs/resources/audio/RT_swara/VITS/bas/10/bas_rnd2_463_gen.wav
+  createAnchor35: false
+  createAnchor70: false
+
+- type: mushra
+  id: page24
+  name: MUSHRA page24
+  content: In this test, you will rate how similar each sample's voice is to the voice of the speaker in the reference audio. Use the scale to rate the similarity. A score of 100 means the voices are identical, while a score of 0 means they are completely different.
+  showWaveform: true
+  enableLooping: false
+  reference: configs/resources/audio/RT_swara/originals/bas/bas_rnd2_461.wav
+  stimuli:
+    FASTPITCH: configs/resources/audio/RT_swara/FASTPITCH/bas/10/bas_rnd2_461_gen.wav
+    Grad-TTS: configs/resources/audio/RT_swara/Grad-TTS/bas/10/bas_rnd2_461.wav
+    Matcha-TTS: configs/resources/audio/RT_swara/Matcha-TTS/bas/10/bas_rnd2_461.wav
+    VITS: configs/resources/audio/RT_swara/VITS/bas/10/bas_rnd2_461_gen.wav
+  createAnchor35: false
+  createAnchor70: false
+
+- type: mushra
+  id: page25
+  name: MUSHRA page25
+  content: In this test, you will rate how similar each sample's voice is to the voice of the speaker in the reference audio. Use the scale to rate the similarity. A score of 100 means the voices are identical, while a score of 0 means they are completely different.
+  showWaveform: true
+  enableLooping: false
+  reference: configs/resources/audio/RT_swara/originals/bas/bas_rnd2_484.wav
+  stimuli:
+    FASTPITCH: configs/resources/audio/RT_swara/FASTPITCH/bas/10/bas_rnd2_484_gen.wav
+    Grad-TTS: configs/resources/audio/RT_swara/Grad-TTS/bas/10/bas_rnd2_484.wav
+    Matcha-TTS: configs/resources/audio/RT_swara/Matcha-TTS/bas/10/bas_rnd2_484.wav
+    VITS: configs/resources/audio/RT_swara/VITS/bas/10/bas_rnd2_484_gen.wav
+  createAnchor35: false
+  createAnchor70: false
+
+- type: mushra
+  id: page26
+  name: MUSHRA page26
+  content: In this test, you will rate how similar each sample's voice is to the voice of the speaker in the reference audio. Use the scale to rate the similarity. A score of 100 means the voices are identical, while a score of 0 means they are completely different.showWaveform: true
+  enableLooping: false
+  reference: configs/resources/audio/RT_swara/originals/bas/bas_rnd2_482.wav
+  stimuli:
+    FASTPITCH: configs/resources/audio/RT_swara/FASTPITCH/bas/10/bas_rnd2_482_gen.wav
+    Grad-TTS: configs/resources/audio/RT_swara/Grad-TTS/bas/10/bas_rnd2_482.wav
+    Matcha-TTS: configs/resources/audio/RT_swara/Matcha-TTS/bas/10/bas_rnd2_482.wav
+    VITS: configs/resources/audio/RT_swara/VITS/bas/10/bas_rnd2_482_gen.wav
+  createAnchor35: false
+  createAnchor70: false
+
+- type: mushra
+  id: page27
+  name: MUSHRA page27
+  content: In this test, you will rate how similar each sample's voice is to the voice of the speaker in the reference audio. Use the scale to rate the similarity. A score of 100 means the voices are identical, while a score of 0 means they are completely different.
+  showWaveform: true
+  enableLooping: false
+  reference: configs/resources/audio/RT_swara/originals/bas/bas_rnd2_475.wav
+  stimuli:
+    FASTPITCH: configs/resources/audio/RT_swara/FASTPITCH/bas/10/bas_rnd2_475_gen.wav
+    Grad-TTS: configs/resources/audio/RT_swara/Grad-TTS/bas/10/bas_rnd2_475.wav
+    Matcha-TTS: configs/resources/audio/RT_swara/Matcha-TTS/bas/10/bas_rnd2_475.wav
+    VITS: configs/resources/audio/RT_swara/VITS/bas/10/bas_rnd2_475_gen.wav
+  createAnchor35: false
+  createAnchor70: false
+
+- type: mushra
+  id: page28
+  name: MUSHRA page28
+  content: In this test, you will rate how similar each sample's voice is to the voice of the speaker in the reference audio. Use the scale to rate the similarity. A score of 100 means the voices are identical, while a score of 0 means they are completely different.
+  showWaveform: true
+  enableLooping: false
+  reference: configs/resources/audio/RT_swara/originals/bas/bas_rnd2_496.wav
+  stimuli:
+    FASTPITCH: configs/resources/audio/RT_swara/FASTPITCH/bas/10/bas_rnd2_496_gen.wav
+    Grad-TTS: configs/resources/audio/RT_swara/Grad-TTS/bas/10/bas_rnd2_496.wav
+    Matcha-TTS: configs/resources/audio/RT_swara/Matcha-TTS/bas/10/bas_rnd2_496.wav
+    VITS: configs/resources/audio/RT_swara/VITS/bas/10/bas_rnd2_496_gen.wav
+  createAnchor35: false
+  createAnchor70: false
+
+- type: mushra
+  id: page29
+  name: MUSHRA page29
+  content: In this test, you will rate how similar each sample's voice is to the voice of the speaker in the reference audio. Use the scale to rate the similarity. A score of 100 means the voices are identical, while a score of 0 means they are completely different.
+  showWaveform: true
+  enableLooping: false
+  reference: configs/resources/audio/RT_swara/originals/bas/bas_rnd2_478.wav
+  stimuli:
+    FASTPITCH: configs/resources/audio/RT_swara/FASTPITCH/bas/10/bas_rnd2_478_gen.wav
+    Grad-TTS: configs/resources/audio/RT_swara/Grad-TTS/bas/10/bas_rnd2_478.wav
+    Matcha-TTS: configs/resources/audio/RT_swara/Matcha-TTS/bas/10/bas_rnd2_478.wav
+    VITS: configs/resources/audio/RT_swara/VITS/bas/10/bas_rnd2_478_gen.wav
+  createAnchor35: false
+  createAnchor70: false
+
+- type: mushra
+  id: page30
+  name: MUSHRA page30
+  content: In this test, you will rate how similar each sample's voice is to the voice of the speaker in the reference audio. Use the scale to rate the similarity. A score of 100 means the voices are identical, while a score of 0 means they are completely different.
+  showWaveform: true
+  enableLooping: false
+  reference: configs/resources/audio/RT_swara/originals/bas/bas_rnd2_493.wav
+  stimuli:
+    FASTPITCH: configs/resources/audio/RT_swara/FASTPITCH/bas/10/bas_rnd2_493_gen.wav
+    Grad-TTS: configs/resources/audio/RT_swara/Grad-TTS/bas/10/bas_rnd2_493.wav
+    Matcha-TTS: configs/resources/audio/RT_swara/Matcha-TTS/bas/10/bas_rnd2_493.wav
+    VITS: configs/resources/audio/RT_swara/VITS/bas/10/bas_rnd2_493_gen.wav
+  createAnchor35: false
+  createAnchor70: false
+
+
+### SGS ###
+
+- type: mushra
+  id: page31
+  name: MUSHRA page31
+  content: In this test, you will rate how similar each sample's voice is to the voice of the speaker in the reference audio. Use the scale to rate the similarity. A score of 100 means the voices are identical, while a score of 0 means they are completely different.
+  showWaveform: true
+  enableLooping: false
+  reference: configs/resources/audio/RT_swara/originals/sgs/sgs_rnd2_481.wav
+  stimuli:
+    FASTPITCH: configs/resources/audio/RT_swara/FASTPITCH/sgs/10/sgs_rnd2_481_gen.wav
+    Grad-TTS: configs/resources/audio/RT_swara/Grad-TTS/sgs/10/sgs_rnd2_481.wav
+    Matcha-TTS: configs/resources/audio/RT_swara/Matcha-TTS/sgs/10/sgs_rnd2_481.wav
+    VITS: configs/resources/audio/RT_swara/VITS/sgs/10/sgs_rnd2_481_gen.wav
+  createAnchor35: false
+  createAnchor70: false
+
+- type: mushra
+  id: page32
+  name: MUSHRA page32
+  content: In this test, you will rate how similar each sample's voice is to the voice of the speaker in the reference audio. Use the scale to rate the similarity. A score of 100 means the voices are identical, while a score of 0 means they are completely different.
+  showWaveform: true
+  enableLooping: false
+  reference: configs/resources/audio/RT_swara/originals/sgs/sgs_rnd2_472.wav
+  stimuli:
+    FASTPITCH: configs/resources/audio/RT_swara/FASTPITCH/sgs/10/sgs_rnd2_472_gen.wav
+    Grad-TTS: configs/resources/audio/RT_swara/Grad-TTS/sgs/10/sgs_rnd2_472.wav
+    Matcha-TTS: configs/resources/audio/RT_swara/Matcha-TTS/sgs/10/sgs_rnd2_472.wav
+    VITS: configs/resources/audio/RT_swara/VITS/sgs/10/sgs_rnd2_472_gen.wav
+  createAnchor35: false
+  createAnchor70: false
+
+- type: mushra
+  id: page33
+  name: MUSHRA page33
+  content: In this test, you will rate how similar each sample's voice is to the voice of the speaker in the reference audio. Use the scale to rate the similarity. A score of 100 means the voices are identical, while a score of 0 means they are completely different.
+  showWaveform: true
+  enableLooping: false
+  reference: configs/resources/audio/RT_swara/originals/sgs/sgs_rnd2_463.wav
+  stimuli:
+    FASTPITCH: configs/resources/audio/RT_swara/FASTPITCH/sgs/10/sgs_rnd2_463_gen.wav
+    Grad-TTS: configs/resources/audio/RT_swara/Grad-TTS/sgs/10/sgs_rnd2_463.wav
+    Matcha-TTS: configs/resources/audio/RT_swara/Matcha-TTS/sgs/10/sgs_rnd2_463.wav
+    VITS: configs/resources/audio/RT_swara/VITS/sgs/10/sgs_rnd2_463_gen.wav
+  createAnchor35: false
+  createAnchor70: false
+
+- type: mushra
+  id: page34
+  name: MUSHRA page34
+  content: In this test, you will rate how similar each sample's voice is to the voice of the speaker in the reference audio. Use the scale to rate the similarity. A score of 100 means the voices are identical, while a score of 0 means they are completely different.
+  showWaveform: true
+  enableLooping: false
+  reference: configs/resources/audio/RT_swara/originals/sgs/sgs_rnd2_461.wav
+  stimuli:
+    FASTPITCH: configs/resources/audio/RT_swara/FASTPITCH/sgs/10/sgs_rnd2_461_gen.wav
+    Grad-TTS: configs/resources/audio/RT_swara/Grad-TTS/sgs/10/sgs_rnd2_461.wav
+    Matcha-TTS: configs/resources/audio/RT_swara/Matcha-TTS/sgs/10/sgs_rnd2_461.wav
+    VITS: configs/resources/audio/RT_swara/VITS/sgs/10/sgs_rnd2_461_gen.wav
+  createAnchor35: false
+  createAnchor70: false
+
+- type: mushra
+  id: page35
+  name: MUSHRA page35
+  content: In this test, you will rate how similar each sample's voice is to the voice of the speaker in the reference audio. Use the scale to rate the similarity. A score of 100 means the voices are identical, while a score of 0 means they are completely different.
+  showWaveform: true
+  enableLooping: false
+  reference: configs/resources/audio/RT_swara/originals/sgs/sgs_rnd2_484.wav
+  stimuli:
+    FASTPITCH: configs/resources/audio/RT_swara/FASTPITCH/sgs/10/sgs_rnd2_484_gen.wav
+    Grad-TTS: configs/resources/audio/RT_swara/Grad-TTS/sgs/10/sgs_rnd2_484.wav
+    Matcha-TTS: configs/resources/audio/RT_swara/Matcha-TTS/sgs/10/sgs_rnd2_484.wav
+    VITS: configs/resources/audio/RT_swara/VITS/sgs/10/sgs_rnd2_484_gen.wav
+  createAnchor35: false
+  createAnchor70: false
+
+- type: mushra
+  id: page36
+  name: MUSHRA page36
+  content: In this test, you will rate how similar each sample's voice is to the voice of the speaker in the reference audio. Use the scale to rate the similarity. A score of 100 means the voices are identical, while a score of 0 means they are completely different.showWaveform: true
+  enableLooping: false
+  reference: configs/resources/audio/RT_swara/originals/sgs/sgs_rnd2_482.wav
+  stimuli:
+    FASTPITCH: configs/resources/audio/RT_swara/FASTPITCH/sgs/10/sgs_rnd2_482_gen.wav
+    Grad-TTS: configs/resources/audio/RT_swara/Grad-TTS/sgs/10/sgs_rnd2_482.wav
+    Matcha-TTS: configs/resources/audio/RT_swara/Matcha-TTS/sgs/10/sgs_rnd2_482.wav
+    VITS: configs/resources/audio/RT_swara/VITS/sgs/10/sgs_rnd2_482_gen.wav
+  createAnchor35: false
+  createAnchor70: false
+
+- type: mushra
+  id: page37
+  name: MUSHRA page37
+  content: In this test, you will rate how similar each sample's voice is to the voice of the speaker in the reference audio. Use the scale to rate the similarity. A score of 100 means the voices are identical, while a score of 0 means they are completely different.
+  showWaveform: true
+  enableLooping: false
+  reference: configs/resources/audio/RT_swara/originals/sgs/sgs_rnd2_475.wav
+  stimuli:
+    FASTPITCH: configs/resources/audio/RT_swara/FASTPITCH/sgs/10/sgs_rnd2_475_gen.wav
+    Grad-TTS: configs/resources/audio/RT_swara/Grad-TTS/sgs/10/sgs_rnd2_475.wav
+    Matcha-TTS: configs/resources/audio/RT_swara/Matcha-TTS/sgs/10/sgs_rnd2_475.wav
+    VITS: configs/resources/audio/RT_swara/VITS/sgs/10/sgs_rnd2_475_gen.wav
+  createAnchor35: false
+  createAnchor70: false
+
+- type: mushra
+  id: page38
+  name: MUSHRA page38
+  content: In this test, you will rate how similar each sample's voice is to the voice of the speaker in the reference audio. Use the scale to rate the similarity. A score of 100 means the voices are identical, while a score of 0 means they are completely different.
+  showWaveform: true
+  enableLooping: false
+  reference: configs/resources/audio/RT_swara/originals/sgs/sgs_rnd2_496.wav
+  stimuli:
+    FASTPITCH: configs/resources/audio/RT_swara/FASTPITCH/sgs/10/sgs_rnd2_496_gen.wav
+    Grad-TTS: configs/resources/audio/RT_swara/Grad-TTS/sgs/10/sgs_rnd2_496.wav
+    Matcha-TTS: configs/resources/audio/RT_swara/Matcha-TTS/sgs/10/sgs_rnd2_496.wav
+    VITS: configs/resources/audio/RT_swara/VITS/sgs/10/sgs_rnd2_496_gen.wav
+  createAnchor35: false
+  createAnchor70: false
+
+- type: mushra
+  id: page39
+  name: MUSHRA page39
+  content: In this test, you will rate how similar each sample's voice is to the voice of the speaker in the reference audio. Use the scale to rate the similarity. A score of 100 means the voices are identical, while a score of 0 means they are completely different.
+  showWaveform: true
+  enableLooping: false
+  reference: configs/resources/audio/RT_swara/originals/sgs/sgs_rnd2_478.wav
+  stimuli:
+    FASTPITCH: configs/resources/audio/RT_swara/FASTPITCH/sgs/10/sgs_rnd2_478_gen.wav
+    Grad-TTS: configs/resources/audio/RT_swara/Grad-TTS/sgs/10/sgs_rnd2_478.wav
+    Matcha-TTS: configs/resources/audio/RT_swara/Matcha-TTS/sgs/10/sgs_rnd2_478.wav
+    VITS: configs/resources/audio/RT_swara/VITS/sgs/10/sgs_rnd2_478_gen.wav
+  createAnchor35: false
+  createAnchor70: false
+
+- type: mushra
+  id: page40
+  name: MUSHRA page40
+  content: In this test, you will rate how similar each sample's voice is to the voice of the speaker in the reference audio. Use the scale to rate the similarity. A score of 100 means the voices are identical, while a score of 0 means they are completely different.
+  showWaveform: true
+  enableLooping: false
+  reference: configs/resources/audio/RT_swara/originals/sgs/sgs_rnd2_493.wav
+  stimuli:
+    FASTPITCH: configs/resources/audio/RT_swara/FASTPITCH/sgs/10/sgs_rnd2_493_gen.wav
+    Grad-TTS: configs/resources/audio/RT_swara/Grad-TTS/sgs/10/sgs_rnd2_493.wav
+    Matcha-TTS: configs/resources/audio/RT_swara/Matcha-TTS/sgs/10/sgs_rnd2_493.wav
+    VITS: configs/resources/audio/RT_swara/VITS/sgs/10/sgs_rnd2_493_gen.wav
   createAnchor35: false
   createAnchor70: false
   
